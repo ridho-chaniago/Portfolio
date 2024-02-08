@@ -32,7 +32,9 @@ const Navbar = () => {
                         <HashLink to={"#about"} smooth>
                             <Link href={"About"} className={`hover:${text} ${active === "About" ? text : "text-black"}`} onClick={() => handleActive("About")}>About</Link>
                         </HashLink>
+                        <HashLink to={"#skills"} smooth>
                         <Link className={active === "MySkill" ? text : "text-black"} onClick={() => handleActive("MySkill")}>MySkill</Link>
+                        </HashLink>
                         <Link className={active === "Portfolio" ? text : "text-black"} onClick={() => handleActive("Portfolio")}>Portfolio</Link>
                         <Link className={active === "Contact" ? text : "text-black"} onClick={() => handleActive("Contact")}>Contact</Link>
 
