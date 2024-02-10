@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer components {
+    .text {
+      padding: 20px;
+      border-radius: 0.5rem;;
+      padding: 8px;
+      display: inline-block;
+      color: white;
+      font-weight: bold;
+
+    }
+  }
