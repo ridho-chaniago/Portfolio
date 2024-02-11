@@ -11,4 +11,9 @@
       font-weight: bold;
 
     }
+    .scrolldiv {
+        overflow-x: hidden; /* Menyembunyikan overflow horizontal */
+        overflow-y: scroll; /* Membuat scroll ke bawah */
+        height: 300px; /* Atur tinggi sesuai kebutuhan */
+    }
   }
