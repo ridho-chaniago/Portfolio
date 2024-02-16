@@ -5,6 +5,7 @@ import Skills from "../organisms/Skills";
 import Education from "../organisms/Education";
 import Footer from "../organisms/Footer";
 import Experience from "../organisms/Experiences";
+import Portfolio from "../organisms/Portfolio";
 
 
 
@@ -17,6 +18,7 @@ const Profile = () => {
             <Skills/>
             <Education/>
             <Experience/>
+            <Portfolio/>
             <Footer/>
 
         </>
