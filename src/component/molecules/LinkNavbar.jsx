@@ -24,6 +24,9 @@ const LinkNavbar = () => {
             <HashLink to={"#Education"} smooth>
                 <Link className={active === "Education" ? text : "text-black"} onClick={() => handleActive("Education")}>Education</Link>
             </HashLink>
+            <HashLink to={"#Experience"} smooth>
+                <Link className={active === "Experience" ? text : "text-black"} onClick={() => handleActive("Experience")}>Experience</Link>
+            </HashLink>
             <HashLink to={"#Portfolio"} smooth>
                 <Link className={active === "Portfolio" ? text : "text-black"} onClick={() => handleActive("Portfolio")}>Portfolio</Link>
             </HashLink>

@@ -18,7 +18,7 @@ const Navbar = () => {
     return (
         <Router>
             <div className="fixed top-0 w-full bg-white z-50 mb-10">
-                <div className={`flex justify-between items-center px-10 py-5 shadow-lg ${nav} `} >
+                <div className={`flex justify-between items-center px-10 py-3 shadow-lg  `} >
                     <Paragraf>Ridho Chaniago</Paragraf>
                     <div className="md:flex gap-12 hidden ">
                         <LinkNavbar/>

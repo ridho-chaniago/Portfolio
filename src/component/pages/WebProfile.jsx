@@ -4,6 +4,7 @@ import Navbar from "../organisms/Navbar"
 import Skills from "../organisms/Skills";
 import Education from "../organisms/Education";
 import Footer from "../organisms/Footer";
+import Experience from "../organisms/Experiences";
 
 
 
@@ -15,6 +16,7 @@ const Profile = () => {
             <About />
             <Skills/>
             <Education/>
+            <Experience/>
             <Footer/>
 
         </>
