@@ -2,18 +2,58 @@
 @tailwind components;
 @tailwind utilities;
 @layer components {
-    .text {
-      padding: 20px;
-      border-radius: 0.5rem;;
-      padding: 8px;
-      display: inline-block;
-      color: white;
-      font-weight: bold;
-
+  .text {
+    padding: 20px;
+    border-radius: 0.5rem;
+    padding: 8px;
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+  }
+  .scrolldiv {
+    overflow-x: hidden; /* Menyembunyikan overflow horizontal */
+    overflow-y: scroll; /* Membuat scroll ke bawah */
+    height: 300px; /* Atur tinggi sesuai kebutuhan */
+  }
+  @keyframes slideInFromLeft {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
     }
-    .scrolldiv {
-        overflow-x: hidden; /* Menyembunyikan overflow horizontal */
-        overflow-y: scroll; /* Membuat scroll ke bawah */
-        height: 300px; /* Atur tinggi sesuai kebutuhan */
+    to {
+      transform: translateX(0);
+      opacity: 1;
     }
   }
+  @keyframes slideInFromRight {
+    from {
+      transform: translateX(200%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slideInFromTop {
+    from {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  /* Tampilkan konten secara default */
+}
+  .slideright {
+    animation: slideInFromLeft 2s ease-in-out forwards;
+}
+  .slideleft {
+    animation: slideInFromRight 2s ease-in-out forwards;
+}
+  .slidebottom {
+    animation: slideInFromTop 2s ease-in-out forwards;
+}
