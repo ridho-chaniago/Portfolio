@@ -12,8 +12,6 @@ const Portfolio=()=>{
                 <CardPortfolio/>
                 <CardPortfolio/>
                 <CardPortfolio/>
-                <CardPortfolio/>
-                <CardPortfolio/>
             </div>
         </Container>
     )

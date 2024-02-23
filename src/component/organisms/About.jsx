@@ -4,12 +4,12 @@ import P from "../atom/p"
 const About = () => {
     const { P3, P2, P2col } = P()
     return (
-        <div className="flex flex-col items-center justify-center pt-10 lg:h-screen md:h-screen " id={"about"} >
+        <div className="flex flex-col items-center justify-center pt-20 lg:h-screen md:h-screen " id={"about"} >
 
             <Paragraf >About Me</Paragraf>
             <div className="flex flex-col md:flex-row p-10 w-[90%]  justify-around items-center mx-auto">
-                <div className="w-[60%] md:w-[30%]">
-                    <img src="image\Untitled-1.jpg" alt="" />
+                <div className="w-[40%] md:w-[20%] ">
+                    <img src="image\Untitled-1.jpg" className="rounded-full" alt=""  />
 
                 </div>
                 <div className="md:w-[50%]">

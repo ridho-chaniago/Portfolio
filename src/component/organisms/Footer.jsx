@@ -17,7 +17,6 @@ const Footer = () => {
                     <h2 className='font-bold text-4xl text-white'>Ridho Chaniago</h2>
                     <div className=' flex flex-col items-center'>
                         <h3 className='text-white text-2xl'>FrontEnd Developer</h3>
-                        <img className="w-[24px] h-[24px]" src="icon\hacker.png" alt="" />
 
                     </div>
 

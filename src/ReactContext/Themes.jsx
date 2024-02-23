@@ -15,11 +15,11 @@ export const ThemesColor = ({ children }) => {
     setShadow(shadow); // Fungsi untuk mengubah warna
     setBg(bg); // Fungsi untuk mengubah warna
     setBorderCol(borderCol)
-    console.log("themes change " +text)
+    console.log("themes change " +text,dark)
   };
 
   return (
-    <Themes.Provider value={{ text,shadow, bg, changeColor,borderCol }}>
+    <Themes.Provider value={{ text,shadow, bg, changeColor,borderCol}}>
       {children}
     </Themes.Provider>
   );

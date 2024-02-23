@@ -15,6 +15,11 @@
     overflow-y: scroll; /* Membuat scroll ke bawah */
     height: 300px; /* Atur tinggi sesuai kebutuhan */
   }
+  .scrollside {
+    overflow-y:hidden;
+    overflow-x: scroll;
+    width:80%;
+  }
   @keyframes slideInFromLeft {
     from {
       transform: translateX(-100%);
@@ -56,4 +61,12 @@
 }
   .slidebottom {
     animation: slideInFromTop 2s ease-in-out forwards;
+}
+.dark {
+  color:aliceblue;
+  background-color: #0E1B31;
+}
+.light {
+  color: black;
+  background-color: white;
 }

@@ -7,7 +7,8 @@ import LogoSkills from "../molecules/LogoSkills"
 const Skills = () => {
     const { P2col, P1 } = P()
     return (
-        <div id="skills" className="md:h-screen p-10 md:gap-10 flex lg:flex flex-col justify-center items-center">
+        <div id="skills" className="h-screen p-10 md:gap-10 flex lg:flex flex-col justify-center items-center">
+            {/* className="flex justify-center flex-col items-center h-screen gap-10" */}
             <Paragraf>My Skills</Paragraf>
             <div className="flex flex-col-reverse items-center justify-center lg:grid lg:grid-cols-2">
             {/* <div className="items-center justify-center w-full lg:flex md:grid md:grid-cols-2 md:gap-10"> */}
