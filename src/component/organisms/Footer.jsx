@@ -5,7 +5,7 @@ import { useContext } from 'react';
 import Themes from '../../ReactContext/Themes';
 import { HashLink } from 'react-router-hash-link';
 import { Link } from '../atom/Link';
-import { Discord, Ig, Fb, Github } from '../../../public/svg/icon';
+import { Discord, Ig, Fb, Github, In, Email } from '../../../public/svg/icon';
 import BtnSosmed from '../atom/BtnSosmed';
 
 const Footer = () => {
@@ -44,9 +44,11 @@ const Footer = () => {
                 </div>
                 <div className='flex justify-center items-center gap-5'>
                     <BtnSosmed link={"https://discord.com/users/ridhochaniago"}><Discord /></BtnSosmed>
-                    <BtnSosmed link={"https://discord.com/users/ridhochaniago"}><Fb /></BtnSosmed>
-                    <BtnSosmed link={"https://discord.com/users/ridhochaniago"}><Ig /></BtnSosmed>
-                    <BtnSosmed link={"https://discord.com/users/ridhochaniago"}><Github /></BtnSosmed>
+                    <BtnSosmed link={"https://www.facebook.com/ridho12c"}><Fb /></BtnSosmed>
+                    <BtnSosmed link={"https://instagram.com/ridho_chaniago?igshid=MzNlNGNkZWQ4Mg=="}><Ig /></BtnSosmed>
+                    <BtnSosmed link={"https://github.com/ridho-chaniago"}><Github /></BtnSosmed>
+                    <BtnSosmed link={"https://www.linkedin.com/in/ridho-chaniago"}><In /></BtnSosmed>
+                    <BtnSosmed link={"https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=ridho12c.rc@gmail.com"}><Email /></BtnSosmed>
 
                 </div>
                 <p className='text-white font-mono font-semibold'>© 2024 Created by Ridho Chaniago. All right reserved</p>
