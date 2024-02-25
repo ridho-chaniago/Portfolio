@@ -9,6 +9,7 @@ export const ThemesColor = ({ children }) => {
   const [shadow, setShadow] = useState(`shadow-yellow-500`); 
   const [bg,setBg]=useState("bg-yellow-500");
   const [borderCol, setBorderCol]=useState("border-yellow-500")
+  const [isdark,setIsdark]=useState(false)
 
   const changeColor = (text, shadow,bg,borderCol) => {
     setText(text); // Fungsi untuk mengubah warna
@@ -17,9 +18,10 @@ export const ThemesColor = ({ children }) => {
     setBorderCol(borderCol)
     console.log("themes change " +text,dark)
   };
+  const handleDark=()=>setIsdark(!isdark)
 
   return (
-    <Themes.Provider value={{ text,shadow, bg, changeColor,borderCol}}>
+    <Themes.Provider value={{ text,shadow, bg, changeColor,borderCol,handleDark,isdark}}>
       {children}
     </Themes.Provider>
   );

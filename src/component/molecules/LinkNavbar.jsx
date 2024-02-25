@@ -13,25 +13,25 @@ const LinkNavbar = () => {
     return (
         <>
             <HashLink to={"#home"} smooth>
-                <Link className={active === "Home" ? text : "text-black"} onClick={() => handleActive("Home")}>Home</Link>
+                <Link className={active === "Home" ? text : ""} onClick={() => handleActive("Home")}>Home</Link>
             </HashLink>
             <HashLink to={"#about"} smooth>
-                <Link href={"About"} className={`hover:${text} ${active === "About" ? text : "text-black"}`} onClick={() => handleActive("About")}>About</Link>
+                <Link href={"About"} className={`hover:${text} ${active === "About" ? text : ""}`} onClick={() => handleActive("About")}>About</Link>
             </HashLink>
             <HashLink to={"#skills"} smooth>
-                <Link className={active === "MySkill" ? text : "text-black"} onClick={() => handleActive("MySkill")}>MySkill</Link>
+                <Link className={active === "MySkill" ? text : ""} onClick={() => handleActive("MySkill")}>MySkill</Link>
             </HashLink>
             <HashLink to={"#Education"} smooth>
-                <Link className={active === "Education" ? text : "text-black"} onClick={() => handleActive("Education")}>Education</Link>
+                <Link className={active === "Education" ? text : ""} onClick={() => handleActive("Education")}>Education</Link>
             </HashLink>
             <HashLink to={"#Experience"} smooth>
-                <Link className={active === "Experience" ? text : "text-black"} onClick={() => handleActive("Experience")}>Experience</Link>
+                <Link className={active === "Experience" ? text : ""} onClick={() => handleActive("Experience")}>Experience</Link>
             </HashLink>
             <HashLink to={"#Portfolio"} smooth>
-                <Link className={active === "Portfolio" ? text : "text-black"} onClick={() => handleActive("Portfolio")}>Portfolio</Link>
+                <Link className={active === "Portfolio" ? text : ""} onClick={() => handleActive("Portfolio")}>Portfolio</Link>
             </HashLink>
             <HashLink to={"#Contact"} smooth>
-                <Link className={active === "Contact" ? text : "text-black"} onClick={() => handleActive("Contact")}>Contact</Link>
+                <Link className={active === "Contact" ? text : ""} onClick={() => handleActive("Contact")}>Contact</Link>
             </HashLink>
         </>
     )
