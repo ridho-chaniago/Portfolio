@@ -8,6 +8,7 @@ import Experience from "../organisms/Experiences";
 import Portfolio from "../organisms/Portfolio";
 import { useContext } from "react";
 import Themes from "../../ReactContext/Themes";
+import Contact from "../organisms/Contact";
 
 
 
@@ -22,6 +23,7 @@ const Profile = () => {
             <Education/>
             <Experience/>
             <Portfolio/>
+            <Contact/>
             <Footer/>
 
         </div>
