@@ -1,5 +1,6 @@
 import { useContext } from "react"
 import Themes from "../../ReactContext/Themes"
+import ButtonUmum from "../atom/ButtonUmum";
 
 const Course = ({ from, study, time, src, link }) => {
     const {bg}=useContext(Themes)
@@ -15,9 +16,10 @@ const Course = ({ from, study, time, src, link }) => {
                 <p className="font-bold">{from}</p>
                 <p className="font-semibold">{study}</p>
                 <p>{time}</p>
-                <button  className={`${bg} rounded-md text-white text-center w-full px-2 flex items-center justify-center`} onClick={()=>certificate(link)}>
+                <ButtonUmum onClick={()=>certificate(link)}>Certificate</ButtonUmum>
+                {/* <button  className={`${bg} rounded-md text-white text-center w-full px-2 flex items-center justify-center`} onClick={()=>certificate(link)}>
                     Certificate
-                </button>
+                </button> */}
             </div>
         </div>
     )
