@@ -1,4 +1,5 @@
 import { Html } from "../../../public/svg/icon"
+import Container from "../atom/Container"
 import { Paragraf } from "../atom/Paragraf"
 import P from "../atom/p"
 import LogoSkills from "../molecules/LogoSkills"
@@ -7,11 +8,12 @@ import LogoSkills from "../molecules/LogoSkills"
 const Skills = () => {
     const { P2col, P1 } = P()
     return (
-        <div id="skills" className="h-screen p-10 md:gap-10 flex lg:flex flex-col justify-center items-center">
-            {/* className="flex justify-center flex-col items-center h-screen gap-10" */}
+        // <div id="skills" className="h-screen p-10 md:gap-10 flex lg:flex flex-col justify-center items-center">
+        // {/* className="flex justify-center flex-col items-center h-screen gap-10" */ }
+        <Container id={"skills"}>
             <Paragraf>My Skills</Paragraf>
             <div className="flex flex-col-reverse items-center justify-center lg:grid lg:grid-cols-2">
-            {/* <div className="items-center justify-center w-full lg:flex md:grid md:grid-cols-2 md:gap-10"> */}
+                {/* <div className="items-center justify-center w-full lg:flex md:grid md:grid-cols-2 md:gap-10"> */}
                 <div className="p-10 border shadow-sm lg:w-full rounded-3xl hover:shadow-2xl ">
                     <LogoSkills />
                 </div>
@@ -24,7 +26,7 @@ const Skills = () => {
                     <P1>There are some tech stack and tools that i've learned and experienced</P1>
                 </div>
             </div>
-        </div>
+        </Container>
     )
 }
 export default Skills

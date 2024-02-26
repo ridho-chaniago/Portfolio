@@ -3,12 +3,14 @@ import Themes from "../../ReactContext/Themes"
 import { Paragraf } from "../atom/Paragraf"
 import P from "../atom/p"
 import Course from "../molecules/cardCourse"
+import Container from "../atom/Container"
 
 const Education = () => {
     const { P2col, P1 } = P()
     const { bg } = useContext(Themes)
     return (
-        <div id="Education" className="flex justify-center flex-col items-center h-screen gap-10">
+        // <div id="Education" className="flex justify-center flex-col items-center h-screen gap-10">
+        <Container id="Education">
             <Paragraf>Education</Paragraf>
             <div className="flex w-[90%] flex-col md:flex-row items-center mx-auto  justify-between">
                 <div className="flex flex-col gap-5 md:w-[30%]">
@@ -43,7 +45,9 @@ const Education = () => {
                     </div>
                 </div>
             </div>
-        </div >
+        </Container>
+
+        // </div >
     )
 }
 export default Education
