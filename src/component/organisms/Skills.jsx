@@ -8,16 +8,12 @@ import LogoSkills from "../molecules/LogoSkills"
 const Skills = () => {
     const { P2col, P1 } = P()
     return (
-        // <div id="skills" className="h-screen p-10 md:gap-10 flex lg:flex flex-col justify-center items-center">
-        // {/* className="flex justify-center flex-col items-center h-screen gap-10" */ }
-        <Container id={"skills"}>
-            <Paragraf>My Skills</Paragraf>
+        <Container id={"skills"} title={"My Skills"}>
             <div className="flex flex-col-reverse items-center justify-center lg:grid lg:grid-cols-2">
-                {/* <div className="items-center justify-center w-full lg:flex md:grid md:grid-cols-2 md:gap-10"> */}
-                <div className="p-10 border shadow-sm lg:w-full rounded-3xl hover:shadow-2xl ">
+                <div className="p-10 border shadow-sm lg:w-full rounded-3xl hover:shadow-2xl " data-aos="fade-right">
                     <LogoSkills />
                 </div>
-                <div className="flex flex-col items-center justify-center p-10 lg:w-full">
+                <div className="flex flex-col items-center justify-center p-10 lg:w-full"  data-aos="fade-left">
                     <div className="flex gap-10">
                         <P2col>Tech Stack & Tools</P2col>
                         <img width="40" src="https://img.icons8.com/color/48/maintenance.png" alt="maintenance" />

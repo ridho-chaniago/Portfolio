@@ -7,13 +7,6 @@ const Casco = () => (
             <p>Periode: Nov, 2020 - Jan, 2024</p>
             <p>Position: Operator</p>
         </div>
-        {/* <div className="p-5">
-            <ul className="list-disc">
-                <li>Conducted production machine operations with precision and accuracy in accordance with company procedures</li>
-                <li>Shorting material before assembly</li>
-                <li>Assembly pcb to housing product</li>
-            </ul>
-        </div> */}
     </CardWork>
 );
 const Kemet = () => (
@@ -23,13 +16,6 @@ const Kemet = () => (
             <p>Periode: Jun, 2018 - Jun, 2020</p>
             <p>Position: Operator</p>
         </div>
-        {/* <div className="p-5">
-            <ul className="list-disc">
-                <li>Conducted production machine operations with precision and accuracy in accordance with company procedures</li>
-                <li>Inspecting periodically manufactured products to ensure their quality meets established standards.</li>
-                <li>Reporting any unusual incidents or issues to the supervisor or management for further action.</li>
-            </ul>
-        </div> */}
     </CardWork>
 );
 const SatNusa = () => (
@@ -39,13 +25,6 @@ const SatNusa = () => (
             <p>Periode: Mar, 2016 - Mar, 2018</p>
             <p>Position: Jr. Technician</p>
         </div>
-        {/* <div className="p-5">
-            <ul className="list-disc">
-                <li>Performing routine maintenance and cleaning of production machines to ensure optimal performance.</li>
-                <li>Monitoring the production process and identifying potential issues that require improvement.</li>
-                <li>Participating in process improvement initiatives to enhance efficiency, productivity, or product quality.</li>
-            </ul>
-        </div> */}
     </CardWork>
 );
 
