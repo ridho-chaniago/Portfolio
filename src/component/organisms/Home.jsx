@@ -2,6 +2,7 @@ import { useContext } from "react"
 import { Paragraf } from "../atom/Paragraf"
 import Themes from "../../ReactContext/Themes"
 import { Link } from "../atom/Link"
+import { BtnThemes } from "../molecules/BtnThemes"
 
 
 const Home = () => {
@@ -31,6 +32,7 @@ const Home = () => {
                 </div>
             </div>
             <p className="animate-bounce font-bold">Scroll Down For More</p>
+            {/* <BtnThemes /> */}
         </div>
 
     )
