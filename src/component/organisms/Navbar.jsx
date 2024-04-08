@@ -11,7 +11,7 @@ const Navbar = () => {
     console.log(isdark)
     return (
         <Router>
-            <div className={`fixed top-0 w-full bg-white z-30 mb-10  ${isdark ? "dark" : "light"}`}>
+            <div className={`fixed top-0 w-[100%] bg-white z-30 mb-10  ${isdark ? "dark" : "light"}`}>
                 <div className={`flex justify-between items-center px-10 py-3 shadow-lg  slidebottom `} >
                     <Paragraf>Ridho Chaniago</Paragraf>
                     <div className="flex items-center gap-5">
@@ -22,7 +22,7 @@ const Navbar = () => {
                         <BtnNav />
                     </div>
                 </div>
-                <BtnThemes />
+                {/* <BtnThemes /> */}
             </div>
         </Router>
     )

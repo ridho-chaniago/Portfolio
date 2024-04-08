@@ -9,7 +9,7 @@ const Skills = () => {
     const { P2col, P1 } = P()
     return (
         <Container id={"skills"} title={"My Skills"}>
-            <div className="flex flex-col-reverse items-center justify-center lg:grid lg:grid-cols-2">
+            <div className="flex flex-col-reverse items-center w-[90%] justify-center lg:grid lg:grid-cols-2">
                 <div className="p-10 border shadow-sm lg:w-full rounded-3xl hover:shadow-2xl " data-aos="fade-right">
                     <LogoSkills />
                 </div>
