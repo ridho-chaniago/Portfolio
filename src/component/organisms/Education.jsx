@@ -35,7 +35,7 @@ const Education = () => {
                             <p >COURSE</p>
                         </div>
                         <div className="flex flex-col gap-5 scrolldiv">
-                            <Course from={`Harisenin.com`} study={`FullStack Web Development`} time={"Sept 2023 - Feb 2024"} src={"https://d1fdloi71mui9q.cloudfront.net/JZfkXxgRRCGfv2ZrlTQ5_7FEvj3b2s79r3gAB"} />
+                            <Course from={`Harisenin.com`} study={`FullStack Web Development`} time={"Sept 2023 - Feb 2024"} src={"https://d1fdloi71mui9q.cloudfront.net/JZfkXxgRRCGfv2ZrlTQ5_7FEvj3b2s79r3gAB"} link={'https://drive.google.com/file/d/1dDznTSKaM_p-pcgGiqZLRCpMipZPtnPT/view?usp=sharing'}/>
                             <Course from={`Salam Ganesha Academy`} study={`Website Design Fundamental`} time={"May 2023 - Jun 2023"} src={"https://media-exp1.licdn.com/dms/image/C510BAQHisnzb70c-_g/company-logo_200_200/0/1581305358521?e=2159024400&v=beta&t=s9AkqsRd5hLcj9OQBh-3qnKzxqnM80lcfIApUKFMeDU"} link={"https://drive.google.com/file/d/16WsxfRrgWrRwoTLN09M93okrA3_MKdb2/view?usp=sharing"} />
                             <Course from={`EdSpert`} study={`Front End with React`} time={"May 2023"} src={"https://cdn2.lnk.bi/profilepics/-1499450_20221222482.jpg"} link={"https://drive.google.com/file/d/1omNqqNfPUK6xopl6yn56sXMNY19hTD4P/view?usp=sharing"} />
 

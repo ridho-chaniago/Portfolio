@@ -27,7 +27,7 @@ const Navbar = () => {
                             <LinkNavbar />
                         </div>
                         <button className="w-12 h-12 flex justify-center items-center shadow-md  rounded-full object-cover" onClick={() => handleDark()}><img className="w-5" src={isdark ? "/icon/brightness.png" : "/icon/moon-stars.png"} /></button>
-                        <button onClick={() => handleOn()}><IconThemes/> {on && <BtnThemes />}</button>
+                        <button onClick={() => handleOn()}><IconThemes /> {on && <BtnThemes />}</button>
                         
                         <BtnNav />
                     </div>
