@@ -22,7 +22,7 @@ const Navbar = () => {
                         <BtnNav />
                     </div>
                 </div>
-                {/* <BtnThemes /> */}
+                <BtnThemes />
             </div>
         </Router>
     )
