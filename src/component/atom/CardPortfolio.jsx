@@ -2,7 +2,7 @@ import { useContext } from "react"
 import Themes from "../../ReactContext/Themes"
 import ButtonUmum from "./ButtonUmum"
 
-const CardPortfolio = ({ children="Your Project in Here", src,sourceCode }) => {
+const CardPortfolio = ({ children="Your Project in Here", src,sourceCode,visit }) => {
     const { shadow, borderCol } = useContext(Themes)
     function code(link){
         window.open(link,"_blank")
@@ -16,7 +16,7 @@ const CardPortfolio = ({ children="Your Project in Here", src,sourceCode }) => {
             <p className={`font-bold text-xl ${text}`}>{children}</p>
             <div className="w-full flex p-2 gap-2">
                 <ButtonUmum onClick={()=>code(sourceCode)}>Source Code</ButtonUmum>
-                <ButtonUmum>Visit</ButtonUmum>
+                <ButtonUmum onClick={()=>code(visit)}>Visit</ButtonUmum>
             </div>
         </div>
     )

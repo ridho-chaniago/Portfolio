@@ -3,17 +3,13 @@ import { Paragraf } from "../atom/Paragraf"
 import P from "../atom/p"
 
 const About = () => {
-    const { P3, P2, P2col } = P()
+    const { P3, P2,P1, P2col } = P()
     return (
         <Container id={"about"} title={"About Me"}>
-            <div className="flex flex-col md:flex-row md:p-10 p-1 w-[90%]  justify-center items-center mx-auto">
-                {/* <div className="w-[40%] md:w-[20%]" data-aos="fade-right">
-                    <img src="image\Untitled-1.jpg" className="rounded-full" alt="" />
-
-                </div> */}
+            <div className="flex flex-col md:flex-row md:p-10 p-1 md:w-[90%]  justify-center items-center ">
                 <div className="" >
                     <div className="flex flex-wrap gap-3" data-aos="fade-down">
-                        <P3>Hello </P3> <img className="w-[24px] h-[24px] " src="icon\wave.png" alt=" " /><P3>I`am</P3><Paragraf>Ridho Chaniago</Paragraf>
+                        <P2>Hello </P2> <img className="w-[24px] h-[24px] " src="icon\wave.png" alt=" " /><P2>I`am</P2><Paragraf>Ridho Chaniago</Paragraf>
                     </div>
                     <div className="flex flex-wrap gap-3 mb-10" data-aos="fade-down">
                         <P2>A</P2> <P2col>FrontEnd Developer</P2col> <img className="w-[24px] h-[24px]" src="icon\hacker.png" alt="" /> <P2>based in</P2> <P2col>Indonesia</P2col> <img src="icon/earth.png" alt="" className="w-[24px] h-[24px]" />
