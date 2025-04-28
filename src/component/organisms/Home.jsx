@@ -25,7 +25,7 @@ const Home = () => {
                     </div>
                     <p className="font-semibold w-60 text-slate-500" >I create stunning website for your business, Intermediate experienced in web design and development.</p>
 
-                    <a download target="blank" href="cv\RidhoChaniago.pdf" className={`${bg} flex gap-4 w-52 p-4 justify-center items-center text-white font-bold rounded-xl`} >
+                    <a download target="blank" href="cv\CV-ATS-RIDHO-CHANIAGO.pdf" className={`${bg} flex gap-4 w-52 p-4 justify-center items-center text-white font-bold rounded-xl`} >
                         <p>Download CV</p>
                         <img className="w-5" src="icon\download.png" />
                     </a>

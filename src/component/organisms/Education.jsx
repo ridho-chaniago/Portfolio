@@ -11,13 +11,13 @@ const Education = () => {
     return (
         // <div id="Education" className="flex justify-center flex-col items-center h-screen gap-10">
         <Container id="Education" title={"Education 🎓 & Course🏆"}>
-            <div className="flex w-[90%] flex-col md:flex-row items-center mx-auto  justify-between">
+            <div className="flex w-full flex-col md:flex-row items-center mx-auto  justify-center">
                 {/* <div className="flex flex-col gap-5 md:w-[30%]" data-aos="fade-right">
                     <P2col>Education 🎓 & Course🏆</P2col>
                     <P1>There are some formal education & awards that i've reached below</P1>
                 </div> */}
-                <div data-aos="zoom-in" className=" flex flex-col md:flex-row gap-5 md:gap-0 px-5 md:px-0 md:justify-around md:w-[65%] border shadow-sm py-5 rounded-3xl hover:shadow-2xl ">
-                    <div className="flex flex-col items-center gap-5">
+                <div data-aos="zoom-in" className=" flex flex-col justify-center items-center md:flex-row gap-5 md:gap-0 px-5 md:px-0 md:justify-around md:w-[65%] border shadow-sm py-5 rounded-3xl hover:shadow-2xl ">
+                    <div className="flex flex-col items-center justify-center gap-5">
                         <div className={`text ${bg}`}>
                             <p className="">EDUCATION</p>
                         </div>
